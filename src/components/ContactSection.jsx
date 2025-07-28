@@ -186,7 +186,7 @@ export const ContactSection = () => {
   );
 };
 
-fetch("https://localhost:3000/api/form", {
+fetch("https://backend-portfolio-wot0.onrender.com/api/form", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
